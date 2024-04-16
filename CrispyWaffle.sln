@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -29,6 +29,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrispyWaffle.ElasticSearch", "Src\CrispyWaffle.ElasticSearch\CrispyWaffle.ElasticSearch.csproj", "{A4C3BBE2-F33F-4752-97C4-206D7C4D6DDD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrispyWaffle.Utils", "Src\CrispyWaffle.Utils\CrispyWaffle.Utils.csproj", "{C86C7297-1E8D-4611-B01A-08FC4FDF1D62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrispyWaffle.EventLog", "Src\CrispyWaffle.EventLog\CrispyWaffle.EventLog.csproj", "{8C6EAED5-A461-475B-89CB-1A99C0712A12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,6 +74,10 @@ Global
 		{C86C7297-1E8D-4611-B01A-08FC4FDF1D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C86C7297-1E8D-4611-B01A-08FC4FDF1D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C86C7297-1E8D-4611-B01A-08FC4FDF1D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6EAED5-A461-475B-89CB-1A99C0712A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6EAED5-A461-475B-89CB-1A99C0712A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6EAED5-A461-475B-89CB-1A99C0712A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6EAED5-A461-475B-89CB-1A99C0712A12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC} = {AA14B952-E519-4983-BF49-E106490AAF1F}
 		{A4C3BBE2-F33F-4752-97C4-206D7C4D6DDD} = {2FD912BD-34A5-4F9E-8192-CD7AEFD572B5}
 		{C86C7297-1E8D-4611-B01A-08FC4FDF1D62} = {2FD912BD-34A5-4F9E-8192-CD7AEFD572B5}
+		{8C6EAED5-A461-475B-89CB-1A99C0712A12} = {2FD912BD-34A5-4F9E-8192-CD7AEFD572B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FAE960DB-B996-4FB3-858C-61BA7C7CD86E}
